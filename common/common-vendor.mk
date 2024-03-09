@@ -52,4 +52,5 @@ PRODUCT_PACKAGES += \
     com.motorola.motosignature \
     moto-checkin \
     moto-settings \
-    moto
+    moto \
+    vendor.dolby.hardware.dms@2.0-service
