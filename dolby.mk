@@ -3,9 +3,6 @@ DOLBY_PATH := vendor/dolby
 # Enable codec support
 AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
 
-# SEPolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(DOLBY_PATH)/sepolicy/vendor
-
 # Configs
 PRODUCT_COPY_FILES += \
     $(DOLBY_PATH)/configs/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
